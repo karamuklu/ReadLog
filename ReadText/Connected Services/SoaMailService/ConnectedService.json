@@ -1,0 +1,21 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://soa.yildiz.com/MailService.svc?wsdl"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, SoaMailService"
+    ],
+    "references": [
+      "ArrayToExcel, {ArrayToExcel, 2.0.7}",
+      "DocumentFormat.OpenXml, {DocumentFormat.OpenXml, 2.15.0}",
+      "System.IO.Packaging, {System.IO.Packaging, 4.7.0}"
+    ],
+    "targetFramework": "netcoreapp3.1",
+    "typeReuseMode": "All"
+  }
+}
